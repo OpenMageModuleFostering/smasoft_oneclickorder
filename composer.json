@@ -3,11 +3,11 @@
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "Magento One Click Order",
+    "description": "One Click Order",
     "authors": [
     {
         "name": "Slabko Michail",
-        "email": "michail.slabko@magento.com"
+        "email": "l.nagash@gmail.com"
     }
 ],
     "suggest": {

@@ -3,7 +3,7 @@
 <config>
     <modules>
         <Smasoft_Oneclickorder>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Smasoft_Oneclickorder>
     </modules>
     <global>
@@ -60,6 +60,20 @@
             </oneclickorder_read>
         </resources>
         <events>
+            <catalog_controller_product_view> <!-- identifier of the event we want to catch -->
+                <observers>
+                    <smasoft_events> <!-- identifier of the event handler -->
+                        <type>model</type>
+                        <!-- class method call type; valid are model, object and singleton -->
+                        <class>smasoft_oneclickorder/observer</class>
+                        <!-- observers class alias -->
+                        <method>test</method>
+                        <!-- observer's method to be called -->
+                        <args></args>
+                        <!-- additional arguments passed to observer -->
+                    </smasoft_events>
+                </observers>
+            </catalog_controller_product_view>
 
             <checkout_type_onepage_save_order_after>
                 <observers>
