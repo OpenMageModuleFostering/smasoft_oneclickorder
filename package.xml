@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+    <name>Smasoft_Oneclickorder</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Magento One Click Order</summary>
+    <description>This extension allows your customers to place an order only in one click , by entering only phone number.&#xD;
+&#xD;
+On the Product View page (right column) and Cart View page will appear form "1 Click order"&#xD;
+&#xD;
+&lt;h2&gt;Features&lt;/h2&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Ability to view order history in admin&lt;/li&gt;&#xD;
+&lt;li&gt;Save order in Magento [optional]&lt;/li&gt;&#xD;
+&lt;li&gt;Send notification to admin by email [optional]&lt;/li&gt;&#xD;
+&lt;li&gt;Disable extension&lt;/li&gt;&#xD;
+&lt;li&gt;ajax form submit&lt;/li&gt;&#xD;
+&lt;/ul&gt;</description>
+    <notes>Add extension code</notes>
+    <authors><author><name>Slabko Michail</name><user>mslabko</user><email>michail.slabko@magento.com</email></author></authors>
+    <date>2013-02-17</date>
+    <time>19:32:14</time>
+    <contents><target name="magecommunity"><dir name="Smasoft"><dir name="Oneclickorder"><dir><dir name="Block"><file name="Abstract.php" hash="7ac1c4d2e31853bde2104fe43bfb219b"/><dir name="Adminhtml"><dir name="Orders"><dir name="Grid"><dir name="Filter"><file name="Filter.php" hash="85310a3cd2b743761e91eba00eae9160"/></dir><dir name="Renderer"><file name="Customer.php" hash="41d3e6b5c27ea79647e175ae966ed85d"/></dir></dir><file name="Grid.php" hash="dd552aec694f243eb479941e9799c33f"/><dir name="View"><dir name="Tab"><file name="Cart.php" hash="7d33d08f804ca525ca2268ae2766c6f1"/><file name="View.php" hash="59d8bb9146b051d8deb7eafba78441df"/></dir><file name="Tabs.php" hash="96121fedb9fde7f875287f9795d53dc9"/><file name="Totals.php" hash="e034a5b9dd5fbaa84fb7cb8194b100a1"/></dir><file name="View.php" hash="ba7a0f092ebe0388073c31e7330fb8d1"/></dir><file name="Orders.php" hash="c13781a656ef0ad6dd6cbc45171f0ffd"/></dir><dir name="Email"><file name="Items.php" hash="f3429350aa7adff3b8f38ba4fa8224c6"/></dir><file name="Form.php" hash="dd11a5a24931cc9114dcb09fd1c866bd"/><file name="Success.php" hash="85648fecbd5c1db1c2a2e2c0a80814f0"/></dir><dir name="Helper"><file name="Data.php" hash="fe618bf196b25961e7dd2b7b9c23b546"/><file name="Email.php" hash="fbcc2b33a32d1352ba49a46ac0624421"/></dir><dir name="Model"><file name="Country.php" hash="81e4fe06bb7480d91185d26006afb07e"/><file name="Observer.php" hash="8b43e8ee35bc52a44c2d4d2056554702"/><file name="Order.php" hash="5f8572272cebc0b94bb9ed404bd7dcd3"/><dir name="Payment"><dir name="Method"><file name="Oneclick.php" hash="cc78b8283304560f3c10b8ca603c5e73"/></dir></dir><dir name="Resource"><dir name="Country"><file name="Collection.php" hash="78ffe2ccd768fe3207693103cb2e2b9a"/></dir><file name="Country.php" hash="6ab590f51494c706e58b8be26b6de799"/><dir name="Order"><file name="Collection.php" hash="909e254e17fa93326a7adb1427f6e1ad"/></dir><file name="Order.php" hash="848513d334ecb128ecb31da0b926e158"/></dir><file name="ServiceQuote.php" hash="588b5af1ab7d5361dfac5ab77ee55aa0"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Country.php" hash="d4f27b6a172bcfd6ad31f253d4637f0d"/></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="OneclickorderController.php" hash="d364c0c870bc1467f011cfb0fc68646d"/></dir><file name="IndexController.php" hash="310d1e2ac0bee1704fe5b385170caac8"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d5bb33432bc01b35a395935bbff852fb"/><file name="config.xml" hash="2531e2b0d6b4122df85dc5398b2ea184"/><file name="system.xml" hash="d85dab36443009f3c769b896d7fee217"/></dir><dir name="sql"><dir name="oneclickorder_setup"><file name="mysql4-install-0.1.0.php" hash="0f74fa38899ed8ec22ce6dd61844a074"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="smasoft"><file name="oneclickorder.xml" hash="d6909370ecd1c83f0ca30f9975e20d18"/></dir></dir><dir name="template"><dir name="smasoft"><dir><dir name="oneclickorder"><file name="view.phtml" hash="851502a4e36982b3c11658eae83910ed"/></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="smasoft"><file name="oneclickorder.xml" hash="7d30fc248b37372ec574aea63aed60fe"/></dir></dir><dir name="template"><dir name="smasoft"><dir><dir name="oneclickorder"><dir name="email"><file name="items.phtml" hash="84b6c0882e2d419603fcd3248287ed0c"/></dir><file name="form.phtml" hash="7a735295a44df1940101d750ff8365b1"/><file name="success.phtml" hash="c325bfd66ded12b59199f36afe393c00"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Smasoft_Oneclickorder.xml" hash="41538eaa88059b69cd0bd1e1d4ef02e2"/></dir></target><target name="magelocale"><dir name="ru_RU"><file name="Smasoft_Oneclickorder.csv" hash="bc7bb64d47579cb159fa1bb3c4780a27"/></dir><dir name="en_US"><file name="Smasoft_Oneclickorder.csv" hash=""/></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="css"><file name="oneclickorder.css" hash="69ef655acbab8ba3178f53871f51a2ea"/></dir><dir name="images"><dir name="oneclickorder"><file name="comment.png" hash="a22ab82fb3a33ece38c3ab5e0844154d"/><file name="telephone.png" hash="0c8298910fbe3c2423f4f30f8ce5c983"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.4.0</max></php></required></dependencies>
+</package>
