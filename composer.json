@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Smasoft_Oneclickorder",
+    "name": "OpenMageModuleFostering\/Smasoft_Oneclickorder",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "One Click Order",
     "authors": [
-    {
-        "name": "Slabko Michail",
-        "email": "l.nagash@gmail.com"
-    }
-],
+        {
+            "name": "Slabko Michail",
+            "email": "l.nagash@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
