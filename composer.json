@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Smasoft_Oneclickorder",
+    "name": "openmage-module-fostering\/smasoft_oneclickorder",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "One Click Order",
     "authors": [
